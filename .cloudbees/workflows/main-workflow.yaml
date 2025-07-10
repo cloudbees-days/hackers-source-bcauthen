@@ -24,7 +24,7 @@ jobs:
         uses: cloudbees-io/ghactions-run-workflow@v2
         continue-on-error: true
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GHA_TOKEN }}
           org-name: cloudbees-days
           repo-name: hackers-source-bcauthen
           branch-name: main
